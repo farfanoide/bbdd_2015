@@ -168,7 +168,7 @@ Donde:
 - Para un repuesto se conoce su descripcion, precio y para qué modelo de una
   marca es.
 
-> [Solucion:](src/p2/e1_repuestos.md)
+> [Solucion](src/p2/e1_repuestos.md)
 
 Informe Medico
 --------------
@@ -193,6 +193,8 @@ Informe Medico
   - De cada estudio se registra a que paciente pertenece, que médico lo
     realizo, que organo se estudio, cual fue el resultado y en qué fecha se
     realizo.
+
+> [Solucion](src/p2/e2_informes_medicos.md)
 
 Aeropuerto
 ----------
