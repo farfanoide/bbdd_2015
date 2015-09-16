@@ -29,17 +29,21 @@ Notación gráfica a utilizarse:
 
 Cardinalidades mínimas y máximas. Atributos
 
-TODO: insertar imagen cardinalidades
+![imagen cardinalidades](img/cardinalidades_atributos.jpg)
 
-Como leer el modelo anterior: “Un curso es dictado como mínimo y como máximo por un profesor, y un
-profesor dicta como mínimo cero y como máximo n cursos”
-Donde
+Como leer el modelo anterior: "Un curso es dictado como mínimo y como máximo
+por un profesor, y un profesor dicta como mínimo cero y como máximo n cursos"
 
-- #curso y nombre son atributos de la entidad CURSO y #curso es la clave de la entidad
-- #legajo y fecha de ingreso son atributos de la entidad PROFESOR y #legajo es la clave de la entidad
+Donde:
+
+- `#curso` y nombre son atributos de la entidad CURSO y #curso es la clave de la
+  entidad
+- `#legajo` y fecha de ingreso son atributos de la entidad PROFESOR y #legajo es
+  la clave de la entidad
 
 Agregación:
-TODO: insertar imagen agregacion
+
+![imagen agregacion](img/agregacion.jpg)
 
 Ejercicios
 ----------
@@ -182,7 +186,7 @@ y color. No existe la posibilidad que dos pollos tengan el mismo número.
 
 Existen diversas razas de pollos, de cada raza se guarda la descripción y se
 conoce el promedio de vida de los ejemplares que pertenecen a la misma, en
-particular para los que son de la raza “híbrido”, se conoce el precio por kilo
+particular para los que son de la raza "híbrido", se conoce el precio por kilo
 de pollo.
 
 Los pollos, dentro del criadero, están agrupados por corral de acuerdo al
@@ -218,8 +222,8 @@ componen.
 De cada instrumento de música se conoce su nombre; además, se requiere
 distinguir tres tipos de instrumentos: de cuerdas (de los cuales se conoce su
 cantidad de cuerdas), de viento (de los cuales se conoce su clasificación, que
-puede ser “metal” o “madera”) y de percusión (de los cuales se conoce su altura,
-que puede ser “definida” o “indefinida”).
+puede ser "metal" o "madera") y de percusión (de los cuales se conoce su altura,
+que puede ser "definida" o "indefinida").
 
 Si bien un músico puede tocar varios instrumentos, dentro de una banda
 determinada sólo toca un instrumento. A su vez, en una misma banda, pueden haber
